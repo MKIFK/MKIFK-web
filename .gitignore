@@ -8,7 +8,6 @@ node_modules/
 
 # Production
 /build
-/dist
 
 # Misc
 .DS_Store
@@ -59,7 +58,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
