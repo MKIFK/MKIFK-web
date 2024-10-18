@@ -1,17 +1,11 @@
 import React from 'react';
 import Button from './Button';
 
-// Import local images
-// import kozlonyKiadoImage from '../../assets/images/jura.jpg';
-// import forditoIrodaImage from '../../assets/images/jura.jpg';
-// import nemzetiJogtarImage from '../../assets/images/jura.jpg';
-// import ceginformacioImage from '../../assets/images/jura.jpg';
-
 interface Service {
   title: string;
   description: string;
   link: string;
-  // image: string;
+  imageUrl: string;
 }
 
 const Services: React.FC = () => {
@@ -20,25 +14,25 @@ const Services: React.FC = () => {
       title: 'Közlöny Kiadó',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       link: '/kozlony-kiado',
-      // image: kozlonyKiadoImage
+      imageUrl: '/images/jura.jpg'
     },
     {
       title: 'Országos Fordító és Fordításhitelesítő Iroda',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
       link: '/fordito-iroda',
-      // image: forditoIrodaImage
+      imageUrl: '/images/jura.jpg'
     },
     {
       title: 'Nemzeti jogtár',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
       link: '/nemzeti-jogtar',
-      // image: nemzetiJogtarImage
+      imageUrl: '/images/jura.jpg'
     },
     {
       title: 'Céginformáció',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
       link: '/ceginformacio',
-      // image: ceginformacioImage
+      imageUrl: '/images/jura.jpg'
     },
   ];
 
@@ -48,8 +42,18 @@ const Services: React.FC = () => {
         <h2>Szolgáltatásaink</h2>
         <div className="services__grid">
           {services.map((service, index) => (
+            
             <div key={index} className="services__item">
               <div className="services__image-container">
+                <img 
+                  src={service.imageUrl} 
+                  alt={service.title} 
+                  className="services__image"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = '/images/placeholder.jpg';
+                  }}
+                />
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
@@ -57,6 +61,7 @@ const Services: React.FC = () => {
                 Részletek
               </Button>
             </div>
+
           ))}
         </div>
       </div>
