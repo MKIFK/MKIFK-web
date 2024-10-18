@@ -1,0 +1,49 @@
+.footer {
+  background-color: $green;
+  color: $background-color;
+  padding: $spacing-large 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-medium;
+
+    @include respond-to(medium) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-small;
+
+      @include respond-to(medium) {
+        flex-direction: row;
+        gap: $spacing-medium;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: $spacing-small;
+  }
+
+  &__social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: $background-color;
+    color: $secondary-color;
+    border-radius: 50%;
+    @include flex-center;
+  }
+}

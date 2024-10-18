@@ -1,0 +1,46 @@
+.about-us {
+  padding: $spacing-large 0;
+
+  h2{
+    color: $font;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: $spacing-medium;
+    background: $green;
+    height: 380px;
+    border-radius: $border-radius-medium;
+    overflow: hidden;
+    box-shadow: 8px 0 60px #a5927c8a;
+
+    @include respond-to(medium) {
+      flex-direction: row;
+    }
+  }
+
+  &__image {
+    flex: 1;
+    position: absolute;
+    margin-top: -4rem;
+    right: -4rem;
+
+    img {
+      width: initial;
+    }
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    flex: 1;
+    width: 70%;
+
+    & h3, p{
+      color: $beige;
+    }
+  }
+}

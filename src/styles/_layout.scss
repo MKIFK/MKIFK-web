@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 $spacing-medium;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 $spacing-small;
+}
+
+.col {
+  flex: 1;
+  padding: 0 $spacing-small;
+}
+
+@include respond-to(small) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@include respond-to(medium) {
+  .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@include respond-to(large) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

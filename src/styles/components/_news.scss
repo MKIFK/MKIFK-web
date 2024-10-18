@@ -1,0 +1,33 @@
+.news {
+  padding: $spacing-large 0;
+
+  &__grid {
+    display: grid;
+    gap: $spacing-medium;
+    grid-template-columns: 1fr;
+
+    @include respond-to(medium) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__item {
+    background-color: #fff;
+    padding: $spacing-medium;
+    background: $egg;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: $spacing-small;
+    }
+
+    h3 {
+      margin-bottom: $spacing-small;
+    }
+  }
+}

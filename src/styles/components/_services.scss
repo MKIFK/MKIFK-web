@@ -1,0 +1,41 @@
+.services {
+  padding: $spacing-large 0;
+
+  &__grid {
+    display: grid;
+    gap: $spacing-medium;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include respond-to(small) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to(medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__item {
+    background: white;
+    border-radius: $border-radius-medium;
+    overflow: hidden;
+    background: $egg;
+
+    .services__text{
+      padding: 2rem;
+      gap: 1rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+    }
+
+    img {
+      margin-bottom: $spacing-small;
+    }
+
+    h3 {
+      margin-bottom: $spacing-small;
+    }
+  }
+}
