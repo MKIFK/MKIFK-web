@@ -14,25 +14,25 @@ const Services: React.FC = () => {
       title: 'Közlöny Kiadó',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       link: '/kozlony-kiado',
-      imageUrl: '/images/jura.jpg'
+      imageUrl: 'assets/images/jura.jpg'
     },
     {
       title: 'Országos Fordító és Fordításhitelesítő Iroda',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
       link: '/fordito-iroda',
-      imageUrl: '/images/jura.jpg'
+      imageUrl: 'assets/images/jura.jpg'
     },
     {
       title: 'Nemzeti jogtár',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
       link: '/nemzeti-jogtar',
-      imageUrl: '/images/jura.jpg'
+      imageUrl: 'assets/images/jura.jpg'
     },
     {
       title: 'Céginformáció',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
       link: '/ceginformacio',
-      imageUrl: '/images/jura.jpg'
+      imageUrl: 'assets/images/jura.jpg'
     },
   ];
 
@@ -51,7 +51,7 @@ const Services: React.FC = () => {
                   className="services__image"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = '/images/placeholder.jpg';
+                    target.src = 'assets/images/jura.jpg';
                   }}
                 />
               </div>
