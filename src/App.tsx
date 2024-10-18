@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import MandatoryReporting from './pages/MandatoryReporting';
 import Contact from './pages/Contact';
 
+
 const App: React.FC = () => {
   return (
     <Router>
@@ -23,5 +24,6 @@ const App: React.FC = () => {
     </Router>
   );
 };
+
 
 export default App;
