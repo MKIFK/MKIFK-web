@@ -73,11 +73,13 @@ const Services: React.FC = () => {
                   className="services__image"
                 />
               </div>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-              <Button variant="secondary" linkTo={service.link}>
-                Részletek
-              </Button>
+              <div className='services__text'>
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <Button variant="primary" linkTo={service.link}>
+                  Részletek
+                </Button>
+              </div>
             </div>
           ))}
         </div>
