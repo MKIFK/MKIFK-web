@@ -1,124 +1,44 @@
 .trirong-thin {
-    font-family: "Trirong", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .trirong-extralight {
-    font-family: "Trirong", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .trirong-light {
-    font-family: "Trirong", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .trirong-regular {
-    font-family: "Trirong", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .trirong-medium {
-    font-family: "Trirong", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .trirong-semibold {
-    font-family: "Trirong", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .trirong-bold {
-    font-family: "Trirong", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .trirong-extrabold {
-    font-family: "Trirong", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .trirong-black {
-    font-family: "Trirong", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .trirong-thin-italic {
-    font-family: "Trirong", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .trirong-extralight-italic {
-    font-family: "Trirong", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .trirong-light-italic {
-    font-family: "Trirong", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .trirong-regular-italic {
-    font-family: "Trirong", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .trirong-medium-italic {
-    font-family: "Trirong", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .trirong-semibold-italic {
-    font-family: "Trirong", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .trirong-bold-italic {
-    font-family: "Trirong", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .trirong-extrabold-italic {
-    font-family: "Trirong", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .trirong-black-italic {
-    font-family: "Trirong", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
-  h1, h2, h3, h4, h5, p, body{
-    font-family: Triong;
+  font-family: "Trirong", serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  }
+.trirong-extralight {
+  font-family: "Trirong", serif;
+  font-weight: 200;
+  font-style: normal;
+}
 
-  h1{
-    font-size: 3rem;
-  }
+.cinzel-regular {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  h2{
-    font-size: 2rem;
-  }
 
-  h3{
-    font-size: 1.5rem;
-  }
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-display;
+  font-weight: 400;
+}
+
+p{
+  font-family: "Trirong";
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+h1, h2, h3{
+  text-transform: uppercase;
+}

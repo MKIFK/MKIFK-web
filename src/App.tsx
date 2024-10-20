@@ -5,6 +5,9 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import MandatoryReporting from './pages/MandatoryReporting';
 import Contact from './pages/Contact';
+import NewsPost1 from './pages/NewsPost1';
+import NewsPost2 from './pages/NewsPost2';
+import NewsPost3 from './pages/NewsPost3';
 
 
 const App: React.FC = () => {
@@ -17,6 +20,9 @@ const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/kotelezo-adatszolgaltatas" element={<MandatoryReporting />} />
             <Route path="/elerhetoseg-kapcsolat" element={<Contact />} />
+            <Route path="/news-post1" element={<NewsPost1 />} />
+            <Route path="/news-post2" element={<NewsPost2 />} />
+            <Route path="/news-post3" element={<NewsPost3 />} />
           </Routes>
         </main>
         <Footer />

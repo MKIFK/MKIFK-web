@@ -17,12 +17,6 @@ const Header: React.FC = () => {
             <img src={logoSvg} alt="MKIFK Logo" className="header__logo-image" />
           </Link>
           <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
-            <ul>
-              <li><Link to="/">MKIFK</Link></li>
-              <li><Link to="/">Rólunk</Link></li>
-              <li><Link to="/">Szolgáltatásaink</Link></li>
-              <li><Link to="/">Híreink</Link></li>
-            </ul>
           </nav>
           <button className="header__menu-toggle" onClick={toggleMenu}>
             <span></span>

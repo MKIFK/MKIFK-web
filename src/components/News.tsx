@@ -19,19 +19,19 @@ const News: React.FC = () => {
     {
       title: 'Hír 1',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      link: 'https://telex.hu',
+      link: '/news-post1',
       imageName: 'jura.jpg'
     },
     {
       title: 'Hír 2',
       content: 'Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.',
-      link: 'https://www.bbc.com',
+      link: '/news-post2',
       imageName: 'jura.jpg'
     },
     {
       title: 'Hír 3',
       content: 'Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
-      link: '/hirek/3',
+      link: '/news-post3',
       imageName: 'jura.jpg'
     },
   ];
