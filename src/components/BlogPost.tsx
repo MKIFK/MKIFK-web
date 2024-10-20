@@ -21,11 +21,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
   useEffect(() => {
     const loadImages = async () => {
       try {
-        const heroImageModule = await import(`../assets/images/${heroImage}`);
+        const heroImageModule = await import(`../assets/images/${heroImage}.{png,jpg,jpeg,gif}`);
         setHeroImageSrc(heroImageModule.default);
 
         if (image) {
-          const contentImageModule = await import(`../assets/images/${image}`);
+          const contentImageModule = await import(`../assets/images/${image}.{png,jpg,jpeg,gif}`);
           setContentImageSrc(contentImageModule.default);
         }
       } catch (error) {

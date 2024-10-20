@@ -9,15 +9,21 @@
   border: none;
   display: flex;
   cursor: pointer;
-  transition: background-color 0.1s ease, color 0.1s ease;
+  transition: all 200ms;
   width: max-content;
+
+  &__icon {
+    margin-right: $spacing-small;
+    font-size: 1.2em;
+  }
 
   &--primary {
     background-color: $green;
     color: #fff;
 
     &:hover, &:focus {
-      background-color: black;
+      background-color: $beige;
+      text-decoration: none;
     }
   }
 

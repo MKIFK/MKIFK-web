@@ -2,13 +2,16 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+// LEGAL PAGES 
 import HomePage from './pages/HomePage';
 import MandatoryReporting from './pages/MandatoryReporting';
 import Contact from './pages/Contact';
+
+// NEWS PAGES 
 import NewsPost1 from './pages/NewsPost1';
 import NewsPost2 from './pages/NewsPost2';
 import NewsPost3 from './pages/NewsPost3';
-
 
 const App: React.FC = () => {
   return (

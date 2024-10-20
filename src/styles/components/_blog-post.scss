@@ -25,6 +25,7 @@
     font-size: 2.5rem;
     margin-bottom: $spacing-medium;
     line-height: 1.2;
+    color: $primary-color;
   }
 
   &__meta {
@@ -85,18 +86,22 @@
     }
 
     blockquote {
-      border-left: 4px solid $primary-color;
+      border-left: 4px solid $beige;
       padding-left: $spacing-medium;
       margin-left: 0;
       font-style: italic;
     }
 
     a {
-      color: $primary-color;
+      color: $beige;
       text-decoration: underline;
+      transform: all 200ms;
+      background: none;
 
       &:hover {
-        color: $primary-color, 15%;
+        background: $egg;
+
+        
       }
     }
   }

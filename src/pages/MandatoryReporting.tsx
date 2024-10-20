@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '../components/Button';
+
 
 const MandatoryReporting: React.FC = () => {
   return (
@@ -14,6 +16,14 @@ const MandatoryReporting: React.FC = () => {
           </ul>
           <p>További információkért kérjük, vegye fel a kapcsolatot ügyfélszolgálatunkkal.</p>
         </div>
+        <Button 
+            variant="primary" 
+            icon="Download" 
+            linkTo="/documents/adatszolgaltatasi-utmutato.pdf" 
+            external
+          >
+            Adatszolgáltatási útmutató letöltése
+          </Button>
       </div>
     </div>
   );

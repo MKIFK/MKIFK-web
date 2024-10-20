@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import * as Icons from '@mui/icons-material';
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -8,6 +9,7 @@ interface ButtonProps {
   onClick?: () => void;
   className?: string;
   external?: boolean;
+  icon?: keyof typeof Icons;
 }
 
 const Button: React.FC<ButtonProps> = ({ 
@@ -16,30 +18,40 @@ const Button: React.FC<ButtonProps> = ({
   linkTo, 
   onClick,
   className = '',
-  external = false
+  external = false,
+  icon
 }) => {
   const baseClass = 'button';
   const variantClass = `${baseClass}--${variant}`;
   const combinedClassName = `${baseClass} ${variantClass} ${className}`.trim();
 
+  const IconComponent = icon ? Icons[icon] : null;
+
+  const buttonContent = (
+    <>
+      {IconComponent && <IconComponent className="button__icon" />}
+      <span className="button__text">{children}</span>
+    </>
+  );
+
   if (linkTo) {
     if (external) {
       return (
         <a href={linkTo} className={combinedClassName} target="_blank" rel="noopener noreferrer">
-          {children}
+          {buttonContent}
         </a>
       );
     }
     return (
       <Link to={linkTo} className={combinedClassName}>
-        {children}
+        {buttonContent}
       </Link>
     );
   }
 
   return (
     <button className={combinedClassName} onClick={onClick}>
-      {children}
+      {buttonContent}
     </button>
   );
 };
