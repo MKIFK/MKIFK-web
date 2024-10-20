@@ -1,36 +1,37 @@
 import React from 'react';
 import BlogPost from '../components/BlogPost';
 
-const NewsPost3: React.FC = () => {
+import contentImage1 from '../../assets/images/hero-image-1.jpg';
+import heroImage2 from '../../assets/images/hero-image-1.jpg';
+
+
+const NewsPost1: React.FC = () => {
   const blogPostData = {
-    title: "Új kutatás: A rendszeres testmozgás csökkentheti a depresszió kockázatát",
-    author: {
-      name: "Dr. Kovács Anna",
-      avatar: "/placeholder.svg?height=50&width=50"
-    },
-    category: "Egészség",
-    date: "október 17., 10:00",
+    title: "News Page 3 - Gálvölgyi Jánost úgy megrakja egy női testbe zárt meleg férfi, hogy leülni sem tud",
+    date: "október 15., 19:29",
+    heroImage: 'hero-image-1.jpg',
     content: `
-      <p>Egy új, átfogó kutatás szerint a rendszeres testmozgás jelentősen csökkentheti a depresszió kialakulásának kockázatát. A tanulmány több mint 100 000 résztvevő adatait elemezte.</p>
-      <h2>A kutatás főbb megállapításai</h2>
-      <p>A kutatók azt találták, hogy azok, akik hetente legalább 150 percet mozogtak közepes intenzitással, 31%-kal kisebb eséllyel tapasztaltak depressziós tüneteket, mint az inaktív résztvevők.</p>
-      <blockquote>"A testmozgás nem csak a fizikai egészségünkre van pozitív hatással, de a mentális jóllétünket is jelentősen javíthatja" - nyilatkozta Dr. Smith, a kutatás vezetője.</blockquote>
-      <h3>Ajánlott testmozgásformák</h3>
-      <p>A kutatók a következő testmozgásformákat javasolják a depresszió megelőzésére:</p>
+      <img src="${heroImage2}" alt="Content image 1"/>
+
+      <p>Ha Pintér Béla legújabb előadására, az <em>Idegen test</em>re beülne mondjuk, mit tudom én, Rákay Philip és a Meseország mindenkié LMBTQ-aktivista szerkesztője, akkor egymás kezét izzadtra morzsolva, szimultán kapnának agyvérzést.</p>
+      <p>A <a href="#">korábbi előadásokra</a> is igaz volt, de itt hatványozottan így van, hogy a magyar kultúrpolitika, ami aktívan igyekszik <a href="#">megfojtani</a> Pintéréket és más független társulatokat, őszintén meglepődne, ha beülne egy Pintér-előadásra, mert azzal szembesülne, hogy bizonyos szempontból a jelenkor egyik legkonzervatívabb és leghatásosabb kritikusa Pintér Béla és társulata, akik egyáltalán nem elégszenek meg annyival, hogy az éppen regnáló politikai elitet kigúnyolják. Ennél jóval többről beszélnek Pintérék.</p>
+      <h2>Alcím 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+      <blockquote>Ez egy idézet a cikkből, ami kiemeli a fontos gondolatokat.</blockquote>
+      <h3>Alcím 2</h3>
+      <img src="${contentImage1}" alt="Content image 1" style="max-width: 100%; height: auto; margin: 20px 0;" />
+      
+      <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
       <ul>
-        <li>Gyors séta vagy kocogás</li>
-        <li>Úszás</li>
-        <li>Kerékpározás</li>
-        <li>Tánc vagy aerobik</li>
+        <li>Lista elem 1</li>
+        <li>Lista elem 2</li>
+        <li>Lista elem 3</li>
       </ul>
-      <p>A szakértők hangsúlyozzák, hogy a rendszeresség kulcsfontosságú. Már napi 30 perc mozgás is jelentős pozitív hatással lehet a mentális egészségre.</p>
-      <h3>Következtetések</h3>
-      <p>A kutatás eredményei arra mutatnak rá, hogy a testmozgás beépítése a mindennapi rutinba nem csak fizikai, de mentális szempontból is rendkívül fontos. Az egészségügyi szakemberek remélik, hogy ezek az eredmények még több embert ösztönöznek majd a rendszeres testmozgásra.</p>
     `,
-    image: "/placeholder.svg?height=400&width=800"
+    image: '../../assets/images/hero-image-1.jpg'
   };
 
   return <BlogPost {...blogPostData} />;
 };
 
-export default NewsPost3;
+export default NewsPost1;
