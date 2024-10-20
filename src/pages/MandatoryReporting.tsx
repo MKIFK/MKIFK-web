@@ -19,7 +19,7 @@ const MandatoryReporting: React.FC = () => {
         <Button 
             variant="primary" 
             icon="Download" 
-            linkTo="/documents/adatszolgaltatasi-utmutato.pdf" 
+            linkTo="/documents/nemzeti-jogtar.pdf" 
             external
           >
             Adatszolgáltatási útmutató letöltése
