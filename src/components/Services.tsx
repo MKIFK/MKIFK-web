@@ -6,6 +6,7 @@ interface Service {
   description: string;
   link: string;
   imageName: string;
+  isExternal: boolean;
 }
 
 interface ImageModule {
@@ -19,25 +20,29 @@ const Services: React.FC = () => {
     {
       title: 'Közlöny Kiadó',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      link: '/kozlony-kiado',
+      link: 'https://mhk.hu/',
+      isExternal: true,
       imageName: 'kiado.svg'
     },
     {
       title: 'Országos Fordító és Fordításhitelesítő Iroda',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
-      link: '/fordito-iroda',
+      link: 'https://offi.hu/',
+      isExternal: true,
       imageName: 'fordito.svg'
     },
     {
       title: 'Nemzeti jogtár',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
-      link: '/nemzeti-jogtar',
+      link: 'https://njt.hu/',
+      isExternal: true,
       imageName: 'nemzeti_jogtar.svg'
     },
     {
       title: 'Céginformáció',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
       link: '/ceginformacio',
+      isExternal: true,
       imageName: 'ceginfo.svg'
     },
   ];
@@ -76,7 +81,11 @@ const Services: React.FC = () => {
               <div className='services__text'>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <Button variant="primary" linkTo={service.link}>
+                <Button 
+                variant="primary" 
+                linkTo={service.link}
+                external={service.isExternal}
+                >
                   Részletek
                 </Button>
               </div>

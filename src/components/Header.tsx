@@ -15,6 +15,10 @@ const Header: React.FC = () => {
         <div className="header__content">
           <Link to="/" className="header__logo">
             <img src={logoSvg} alt="MKIFK Logo" className="header__logo-image" />
+            <span>
+              Magyar Közlönykiadó <br></br>d
+              és Igazságügyi Fordítóközpont Zrt
+            </span>
           </Link>
           <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
             <ul>
