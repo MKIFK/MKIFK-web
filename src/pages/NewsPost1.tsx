@@ -7,26 +7,50 @@ import heroImage2 from '../../assets/images/hero-image-1.jpg';
 
 const NewsPost1: React.FC = () => {
   const blogPostData = {
-    title: "News Page 1 - Gálvölgyi Jánost úgy megrakja egy női testbe zárt meleg férfi, hogy leülni sem tud",
+    title: "News Page 1 - faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.",
     date: "október 15., 19:29",
     heroImage: 'hero-image-1.jpg',
     content: `
       <img src="${heroImage2}" alt="Content image 1"/>
 
-      <p>Ha Pintér Béla legújabb előadására, az <em>Idegen test</em>re beülne mondjuk, mit tudom én, Rákay Philip és a Meseország mindenkié LMBTQ-aktivista szerkesztője, akkor egymás kezét izzadtra morzsolva, szimultán kapnának agyvérzést.</p>
-      <p>A <a href="#">korábbi előadásokra</a> is igaz volt, de itt hatványozottan így van, hogy a magyar kultúrpolitika, ami aktívan igyekszik <a href="#">megfojtani</a> Pintéréket és más független társulatokat, őszintén meglepődne, ha beülne egy Pintér-előadásra, mert azzal szembesülne, hogy bizonyos szempontból a jelenkor egyik legkonzervatívabb és leghatásosabb kritikusa Pintér Béla és társulata, akik egyáltalán nem elégszenek meg annyival, hogy az éppen regnáló politikai elitet kigúnyolják. Ennél jóval többről beszélnek Pintérék.</p>
-      <h2>Alcím 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
-      <blockquote>Ez egy idézet a cikkből, ami kiemeli a fontos gondolatokat.</blockquote>
-      <h3>Alcím 2</h3>
-      <img src="${contentImage1}" alt="Content image 1" style="max-width: 100%; height: auto; margin: 20px 0;" />
-      
-      <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+
+      <h2>Headline 2: Consectetur Adipiscing Elit</h2>
+
+      <p>Nullam sit amet nisi condimentum erat iaculis auctor. Praesent congue erat at massa. Sed cursus turpis vitae tortor.</p>
+
+      <blockquote>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet fringilla lacus."
+      </blockquote>
+
+      <h3>Headline 3: Vivamus Luctus Urna Sed Urna</h3>
+
+      <p>In hac habitasse platea dictumst. Nulla facilisi. Morbi fringilla convallis sapien, id pulvinar odio volutpat. Sed dignissim lacinia nunc.</p>
+
+      <h4>Headline 4: Sed Cursus Turpis Vitae Tortor</h4>
+
+      <p>Curabitur suscipit suscipit tellus. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+
+      <h5>Headline 5: Curabitur Suscipit Suscipit Tellus</h5>
+
+      <p>Nulla facilisi. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+
+      <h2>Ordered List Example</h2>
+      <ol>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipiscing elit</li>
+          <li>Vivamus luctus urna sed urna ultricies</li>
+      </ol>
+
+      <h2>Unordered List Example</h2>
       <ul>
-        <li>Lista elem 1</li>
-        <li>Lista elem 2</li>
-        <li>Lista elem 3</li>
+          <li>Nullam sit amet nisi condimentum</li>
+          <li>Praesent congue erat at massa</li>
+          <li>Sed cursus turpis vitae tortor</li>
       </ul>
+
+      <p>Visit our <a href="https://example.com" target="_blank">website</a> for more information.</p>
+
     `,
     image: '../../assets/images/hero-image-1.jpg'
   };

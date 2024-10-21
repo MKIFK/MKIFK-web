@@ -36,7 +36,6 @@
     "SHRP" 0;
 }
 
-
 h1, h2, h3, h4, h5 {
   font-family: $font-family-display;
   font-weight: 400;
@@ -61,4 +60,9 @@ h3{
 
 h1, h2, h3{
   text-transform: uppercase;
+}
+
+ul li, ol li{
+  font-family: $font-family-base;
+  font-weight: 200;
 }

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <ul>
               <li><Link to="/">MKIFK</Link></li>
               <li><Link to="/kotelezo-adatszolgaltatas">Kötelező adatszolgáltatás</Link></li>
-              <li><Link to="/elerhetoseg-kapcsolat">Elérhetőség / Kapcsolat</Link></li>
+              <li><Link to="/elerhetoseg-kapcsolat">Kapcsolat</Link></li>
             </ul>
           </nav>
           <div className="footer__social">

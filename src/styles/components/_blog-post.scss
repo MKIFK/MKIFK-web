@@ -1,3 +1,5 @@
+
+
 .blog-post {
   padding: $spacing-large 0;
 
@@ -86,14 +88,14 @@
     }
 
     blockquote {
-      border-left: 4px solid $beige;
+      border-left: 4px solid $dark-brown;
       padding-left: $spacing-medium;
       margin-left: 0;
       font-style: italic;
     }
 
     a {
-      color: $beige;
+      color: $dark-brown;
       text-decoration: underline;
       transform: all 200ms;
       background: none;

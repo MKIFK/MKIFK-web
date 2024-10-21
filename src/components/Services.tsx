@@ -20,31 +20,31 @@ const Services: React.FC = () => {
       title: 'Közlöny Kiadó',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       link: '/kozlony-kiado',
-      imageName: 'jura.jpg'
+      imageName: 'kiado.svg'
     },
     {
       title: 'Országos Fordító és Fordításhitelesítő Iroda',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
       link: '/fordito-iroda',
-      imageName: 'jura.jpg'
+      imageName: 'fordito.svg'
     },
     {
       title: 'Nemzeti jogtár',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
       link: '/nemzeti-jogtar',
-      imageName: 'jura.jpg'
+      imageName: 'nemzeti_jogtar.svg'
     },
     {
       title: 'Céginformáció',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
       link: '/ceginformacio',
-      imageName: 'jura.jpg'
+      imageName: 'ceginfo.svg'
     },
   ];
 
   useEffect(() => {
     const loadImages = async () => {
-      const imageModules = import.meta.glob<ImageModule>('../../assets/images/*.{png,jpg,jpeg,gif}');
+      const imageModules = import.meta.glob<ImageModule>('../../assets/images/*.{png,jpg,jpeg,gif,svg}');
       const loadedImages: Record<string, string> = {};
 
       for (const path in imageModules) {
