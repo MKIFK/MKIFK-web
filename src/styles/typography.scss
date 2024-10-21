@@ -25,6 +25,17 @@
   'opsz' 24;
 }
 
+.geologica-regular {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 4000;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
 
 h1, h2, h3, h4, h5 {
   font-family: $font-family-display;
@@ -32,7 +43,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p{
-  font-family: "Trirong";
+  font-family: $font-family-base;
 }
 
 h1{
