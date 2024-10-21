@@ -33,6 +33,12 @@ const NewsPost1: React.FC = () => {
 
       <h5>Headline 5: Curabitur Suscipit Suscipit Tellus</h5>
 
+      <p>
+        Nam justo ex, tincidunt vitae mollis vitae, vulputate a nisi. Curabitur tempor ante neque, eu efficitur velit finibus at. 
+        <a href="https://example.com" target="_blank">website</a>
+        Morbi commodo, ex eu aliquam ultrices, justo dui vestibulum leo, in rutrum nisi ex id nisi. Nullam dapibus venenatis commodo. Nulla vitae sapien nec magna aliquet maximus non quis libero. Curabitur in tempor massa. Donec ac varius tellus. Curabitur ac rhoncus mauris.
+      </p>
+
       <p>Nulla facilisi. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
 
       <h2>Ordered List Example</h2>

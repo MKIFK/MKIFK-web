@@ -101,9 +101,8 @@
       background: none;
 
       &:hover {
-        background: $egg;
-
-        
+        background: $light-green;
+        color: $dark-green;
       }
     }
   }
