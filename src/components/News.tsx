@@ -56,7 +56,7 @@ const News: React.FC = () => {
   return (
     <section className="news">
       <div className="container">
-        <h2>Hírek</h2>
+        <h2>Aktualitások</h2>
         <div className="news__grid">
           {newsItems.map((item, index) => (
             <div key={index} className="news__item">
