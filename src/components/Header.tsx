@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logoSvg from '../../assets/images/justicia-white.svg';
+import logoSvg from '../../assets/images/MKIFK-logo-white.svg';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,10 +15,6 @@ const Header: React.FC = () => {
         <div className="header__content">
           <Link to="/" className="header__logo">
             <img src={logoSvg} alt="MKIFK Logo" className="header__logo-image" />
-            <span>
-              Magyar Közlönykiadó és<br></br>
-              Igazságügyi Fordítóközpont Zrt
-            </span>
           </Link>
           <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
             <ul>
