@@ -12,7 +12,8 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    height: 560px;
+    height: 470px;
+    max-height: 470px;
     justify-content: center;
 
     @include respond-to(medium) {
@@ -24,13 +25,13 @@
     position: absolute;
     bottom: -7px;
     right: 0;
-
-
+  
     img {
       width: initial;
       position: relative;
       z-index: 1;
       display: none;
+      max-height: 470px;
 
       @include respond-to(large) {
         display: block;

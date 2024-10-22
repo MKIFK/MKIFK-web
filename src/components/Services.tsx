@@ -18,25 +18,25 @@ const Services: React.FC = () => {
 
   const services: Service[] = [
     {
-      title: 'Közlöny Kiadó',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      link: 'https://mhk.hu/',
+      title: 'Nemzeti Jogtár',
+      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
+      link: 'https://njt.hu/',
       isExternal: true,
-      imageName: 'kiado.svg'
+      imageName: 'nemzeti_jogtar.svg'
     },
     {
-      title: 'Országos Fordító és Fordításhitelesítő Iroda',
+      title: 'Igazságügyi Fordítóközpont',
       description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
       link: 'https://offi.hu/',
       isExternal: true,
       imageName: 'fordito.svg'
     },
     {
-      title: 'Nemzeti jogtár',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
-      link: 'https://njt.hu/',
+      title: 'Magyar Közlöny',
+      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      link: 'https://magyarkozlony.hu//',
       isExternal: true,
-      imageName: 'nemzeti_jogtar.svg'
+      imageName: 'kiado.svg'
     },
     {
       title: 'Céginformáció',
