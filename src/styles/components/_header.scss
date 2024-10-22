@@ -14,9 +14,11 @@
     height: 60px;
     display: flex;
     align-items: center;
+    transition: all 200ms;
 
     img{
       max-height: 80px;
+      transition: all 200ms;
     }
 
     span{
@@ -24,6 +26,14 @@
       color: white;
       font-weight: 200;
       font-size: 16px;
+      transition: all 200ms;
+    }
+
+    &:hover{
+
+      img, span{
+        opacity: 0.6;
+      }
     }
   }
 

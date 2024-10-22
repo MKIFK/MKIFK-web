@@ -7,7 +7,7 @@ import heroImage2 from '../../assets/images/hero-image-1.jpg';
 
 const NewsPost1: React.FC = () => {
   const blogPostData = {
-    title: "News Page 3 - Gálvölgyi Jánost úgy megrakja egy női testbe zárt meleg férfi, hogy leülni sem tud",
+    title: "News Page 3 - faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.",
     date: "október 15., 19:29",
     heroImage: 'hero-image-1.jpg',
     content: `

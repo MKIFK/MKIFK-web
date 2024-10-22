@@ -1,5 +1,5 @@
 .about-us {
-  padding: $spacing-large 0;
+  padding-top: $spacing-large 0;
   background: $primary-color;
 
 
@@ -22,20 +22,32 @@
 
   &__image {
     position: absolute;
+    bottom: -7px;
+    right: 0;
 
 
     img {
       width: initial;
+      position: relative;
+      z-index: 1;
+      display: none;
+
+      @include respond-to(large) {
+        display: block;
+      }
     }
   }
 
   &__text {
+    position: relative;
+    z-index: 2;
+
     @include respond-to(large) {
       width: 70%; 
     }
 
     h1{
-      color: $ligt-brown;
+      color: $light-brown;
     }
 
     & p{
