@@ -1,4 +1,5 @@
 import React from 'react';
+import logoBackground from '../../assets/images/logo-background.svg';
 
 
 const AboutUs: React.FC = () => {
@@ -7,7 +8,7 @@ const AboutUs: React.FC = () => {
       <div className="container">        
         <div className="about-us__content">
           <div className="about-us__image">
-            <img src="/assets/images/logo-background.svg" alt="About Us" />
+            <img src={logoBackground} alt="About Us" />
           </div>
           <div className="about-us__text">
             <h1>Lorem impsum főcím</h1>
