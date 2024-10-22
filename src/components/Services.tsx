@@ -18,29 +18,29 @@ const Services: React.FC = () => {
 
   const services: Service[] = [
     {
-      title: 'Nemzeti Jogtár',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Vivamus hendrerit arcu sed erat molestie vehicula.',
+      title: 'Nemzeti Jogszabálytár',
+      description: 'A hatályos magyar jogszabályok hivatalos gyűjteménye, amely lehetővé teszi a jogszabályok keresését, megismerését, és a hatályosságuk követését.',
       link: 'https://njt.hu/',
       isExternal: true,
       imageName: 'nemzeti_jogtar.svg'
     },
     {
       title: 'Igazságügyi Fordítóközpont',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Nullam in dui mauris.',
+      description: 'Hiteles és nem hiteles fordítási és tolmácsolási szolgáltatásokat nyújt, biztosítva az állami és üzleti partnerek számára a professzionális nyelvi közvetítést és minősített adatkezelést.',
       link: 'https://offi.hu/',
       isExternal: true,
       imageName: 'fordito.svg'
     },
     {
       title: 'Magyar Közlöny',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Magyarország hivatalos lapja, amely a jogszabályokhoz, rendeletekhez és egyéb kormányzati döntésekhez biztosít közérdekű és nyilvános hozzáférést.',
       link: 'https://magyarkozlony.hu//',
       isExternal: true,
       imageName: 'kiado.svg'
     },
     {
       title: 'Céginformáció',
-      description: 'A szolgáltatás összefoglalója 1-2 mondatban. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
+      description: 'A szolgáltatás összefoglalója 1-2 mondtatban. Lorem ipsum dolorsit amet, consectetur adipiscing elit.',
       link: '/ceginformacio',
       isExternal: true,
       imageName: 'ceginfo.svg'

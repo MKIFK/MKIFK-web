@@ -1,0 +1,29 @@
+.mandatory-reporting {
+  padding: $spacing-large 0;
+
+  ul{
+    li{
+      list-style: initial;
+    }
+  }
+
+
+
+  &__text {
+    position: relative;
+    z-index: 2;
+
+    @include respond-to(large) {
+      width: 70%; 
+    }
+
+    h1{
+      color: $light-brown;
+    }
+
+    & p{
+      font-size: 1.5rem;
+      color: $dark-brown;
+    }
+  }
+}

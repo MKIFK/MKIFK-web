@@ -19,6 +19,9 @@
     background: white;
     border-radius: $border-radius-medium;
     overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
 
     .services__text{
       padding: 2rem;

@@ -11,8 +11,10 @@ const AboutUs: React.FC = () => {
             <img src={logoBackground} alt="About Us" />
           </div>
           <div className="about-us__text">
-            <h1>Lorem impsum főcím</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+            <h1>Rólunk</h1>
+            <p>
+              Az újonnan egyesült MKIFK több mint 150 év tapasztalattal nyújt jogi és nyelvi szolgáltatásokat. Innovatív megoldásaink révén hiteles fordításokkal, nyomdai és digitális tartalomszolgáltatásokkal állunk ügyfeleink rendelkezésére, biztosítva a professzionális és megbízható kiszolgálást.
+            </p>
           </div>
         </div>
 
