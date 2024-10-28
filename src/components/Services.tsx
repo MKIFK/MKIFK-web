@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import Button from './Button';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
+
+// Lazy load the Button component
+const Button = lazy(() => import('./Button'));
 
 interface Service {
   title: string;
@@ -67,7 +69,7 @@ const Services: React.FC = () => {
   return (
     <section className="services">
       <div className="container">
-        <h2 className='section-title'>Szolgáltatásaink</h2>
+        <h2 className="section-title">Szolgáltatásaink</h2>
         <div className="services__grid">
           {services.map((service, index) => (
             <div key={index} className="services__item">
@@ -76,18 +78,21 @@ const Services: React.FC = () => {
                   src={images[service.imageName] || '/placeholder.svg?height=200&width=200'}
                   alt={service.title} 
                   className="services__image"
+                  loading={index < 2 ? "eager" : "lazy"}
                 />
               </div>
-              <div className='services__text'>
+              <div className="services__text">
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <Button 
-                variant="primary" 
-                linkTo={service.link}
-                external={service.isExternal}
-                >
-                  Részletek
-                </Button>
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Button 
+                    variant="primary" 
+                    linkTo={service.link}
+                    external={service.isExternal}
+                  >
+                    Részletek
+                  </Button>
+                </Suspense>
               </div>
             </div>
           ))}
