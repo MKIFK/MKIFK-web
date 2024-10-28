@@ -20,19 +20,19 @@ const News: React.FC = () => {
       title: 'Hír 1',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       link: '/news-post1',
-      imageName: 'jura.jpg'
+      imageName: 'news.jpg'
     },
     {
       title: 'Hír 2',
       content: 'Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.',
       link: '/news-post2',
-      imageName: 'jura.jpg'
+      imageName: 'news.jpg'
     },
     {
       title: 'Hír 3',
       content: 'Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.',
       link: '/news-post3',
-      imageName: 'jura.jpg'
+      imageName: 'news.jpg'
     },
   ];
 
@@ -56,7 +56,7 @@ const News: React.FC = () => {
   return (
     <section className="news">
       <div className="container">
-        <h2>Aktualitások</h2>
+        <h2 className='section-title'>Aktualitások</h2>
         <div className="news__grid">
           {newsItems.map((item, index) => (
             <div key={index} className="news__item">

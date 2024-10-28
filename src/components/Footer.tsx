@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logoSvg from '../../assets/images/justicia-white.svg';
+import logoSvg from '../../assets/images/MKIFK-logo-white.svg';
 
 
 const Footer: React.FC = () => {
@@ -13,16 +13,11 @@ const Footer: React.FC = () => {
           </Link>
           <nav className="footer__nav">
             <ul>
-              <li><Link to="/">MKIFK</Link></li>
               <li><Link to="/kotelezo-adatszolgaltatas">Kötelező adatszolgáltatás</Link></li>
               <li><Link to="/kapcsolat">Kapcsolat</Link></li>
             </ul>
           </nav>
-          <div className="footer__social">
-            <a href="#" className="footer__social-icon">F</a>
-            <a href="#" className="footer__social-icon">F</a>
-            <a href="#" className="footer__social-icon">F</a>
-          </div>
+    
         </div>
       </div>
     </footer>

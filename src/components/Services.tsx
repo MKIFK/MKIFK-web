@@ -67,7 +67,7 @@ const Services: React.FC = () => {
   return (
     <section className="services">
       <div className="container">
-        <h2>Szolgáltatásaink</h2>
+        <h2 className='section-title'>Szolgáltatásaink</h2>
         <div className="services__grid">
           {services.map((service, index) => (
             <div key={index} className="services__item">

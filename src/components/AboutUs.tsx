@@ -1,5 +1,6 @@
 import React from 'react';
 import logoBackground from '../../assets/images/logo-background.svg';
+import lobogo from '../../assets/images/a-lobogo.svg';
 
 
 const AboutUs: React.FC = () => {
@@ -17,7 +18,11 @@ const AboutUs: React.FC = () => {
             </p>
           </div>
         </div>
-
+      </div>
+      <div className="lobogo">
+        <div className="red"></div>
+        <div className="white"></div>
+        <div className="green"></div>
       </div>
     </section>
   );
