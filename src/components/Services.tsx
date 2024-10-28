@@ -22,28 +22,28 @@ const Services: React.FC = () => {
       description: 'A hatályos magyar jogszabályok hivatalos gyűjteménye, amely lehetővé teszi a jogszabályok keresését, megismerését, és a hatályosságuk követését.',
       link: 'https://njt.hu/',
       isExternal: true,
-      imageName: 'nemzeti_jogtar.svg'
+      imageName: 'nemzeti_jogtar.png'
     },
     {
       title: 'Igazságügyi Fordítóközpont',
       description: 'Hiteles és nem hiteles fordítási és tolmácsolási szolgáltatásokat nyújt, biztosítva az állami és üzleti partnerek számára a professzionális nyelvi közvetítést és minősített adatkezelést.',
       link: 'https://offi.hu/',
       isExternal: true,
-      imageName: 'fordito.svg'
+      imageName: 'fordito.png'
     },
     {
       title: 'Magyar Közlöny',
       description: 'Magyarország hivatalos lapja, amely a jogszabályokhoz, rendeletekhez és egyéb kormányzati döntésekhez biztosít közérdekű és nyilvános hozzáférést.',
       link: 'https://magyarkozlony.hu//',
       isExternal: true,
-      imageName: 'kiado.svg'
+      imageName: 'kiado.png'
     },
     {
       title: 'Céginformáció',
       description: 'A szolgáltatás összefoglalója 1-2 mondtatban. Lorem ipsum dolorsit amet, consectetur adipiscing elit.',
       link: '/ceginformacio',
       isExternal: true,
-      imageName: 'ceginfo.svg'
+      imageName: 'ceginfo.png'
     },
   ];
 
