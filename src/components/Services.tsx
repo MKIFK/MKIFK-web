@@ -29,7 +29,7 @@ const Services: React.FC = () => {
     {
       title: 'Igazságügyi Fordítóközpont',
       description: 'Hiteles és nem hiteles fordítási és tolmácsolási szolgáltatásokat nyújt, biztosítva az állami és üzleti partnerek számára a professzionális nyelvi közvetítést és minősített adatkezelést.',
-      link: 'https://offi.hu/',
+      link: 'https://www.offi.hu',
       isExternal: true,
       imageName: 'fordito.png'
     },

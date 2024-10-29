@@ -7,10 +7,18 @@ const Contact: React.FC = () => {
         <h1>Kapcsolat</h1>
         <div className="contact__content">
           <div className="contact__info">
-            <h2>Elérhetőségeink</h2>
-            <p>Cím: 1234 Budapest, Példa utca 123.</p>
-            <p>Telefon: +36 1 234 5678</p>
-            <p>E-mail: info@mkifk.hu</p>
+          <br></br>
+          <h3>
+            MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont <br></br>
+             Zártkörűen Működő Részvénytársaság
+          </h3>
+          <br></br>
+          <p>székhelye: 1085 Budapest, Somogyi Béla u. 6.;</p>
+          <p>cégjegyzékszám: 01-10-042469;</p>
+          <p>adószám: 10941908-2-42;</p>
+          <p>képviseli: Németh Balázs Sándor vezérigazgató</p>
+          <p>titkárság: titkarsag@mhk.hu</p>
+            
           </div>
         </div>
       </div>
