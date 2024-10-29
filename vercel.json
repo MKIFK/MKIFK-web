@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "src": "/kotelezo-adatszolgaltatas", "dest": "/" },
+    { "src": "/kapcsolat", "dest": "/" },
+    { "src": "/news-post1", "dest": "/" },
+    { "src": "/news-post2", "dest": "/" },
+    { "src": "/news-post3", "dest": "/" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
