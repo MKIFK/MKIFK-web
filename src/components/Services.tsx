@@ -40,13 +40,6 @@ const Services: React.FC = () => {
       isExternal: true,
       imageName: 'kiado.png'
     },
-    {
-      title: 'Céginformáció',
-      description: 'A szolgáltatás összefoglalója 1-2 mondtatban. Lorem ipsum dolorsit amet, consectetur adipiscing elit.',
-      link: '/ceginformacio',
-      isExternal: true,
-      imageName: 'ceginfo.png'
-    },
   ];
 
   useEffect(() => {
