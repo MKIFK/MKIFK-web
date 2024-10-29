@@ -1,10 +1,10 @@
 {
-  "routes": [
-    { "src": "/kotelezo-adatszolgaltatas", "dest": "/" },
-    { "src": "/kapcsolat", "dest": "/" },
-    { "src": "/news-post1", "dest": "/" },
-    { "src": "/news-post2", "dest": "/" },
-    { "src": "/news-post3", "dest": "/" },
-    { "src": "/(.*)", "dest": "/" }
+  "rewrites": [
+    { "source": "/kotelezo-adatszolgaltatas", "destination": "/" },
+    { "source": "/kapcsolat", "destination": "/" },
+    { "source": "/news-post1", "destination": "/" },
+    { "source": "/news-post2", "destination": "/" },
+    { "source": "/news-post3", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
