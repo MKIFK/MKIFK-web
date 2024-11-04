@@ -11,7 +11,7 @@ const MandatoryReporting: React.FC = () => {
           <p>A 2024-re vonatkozó közérdekű adatok az alábbi linkeken érhetőek el:</p>
 
           <ul>
-            <li><a href="https://mhk.hu/kozadat">Magyar Közlöny / Közadat</a></li>
+            <li><a href="https://mhk.hu/">Magyar Közlöny / Közadat</a></li>
             <li><a href="https://www.offi.hu/cegunkrol/kozerdeku-adatok">OFFI / Közadat</a></li>
           </ul>
           
