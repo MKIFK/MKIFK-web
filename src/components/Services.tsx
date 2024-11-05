@@ -48,7 +48,7 @@ const Services: React.FC = () => {
             <div key={index} className="services__item">
               <div className="services__image-container">
                 <img
-                  src={"../../assets/images/" + service.imageName}
+                  src={"/assets/images/" + service.imageName}
                   alt={service.title}
                   className="services__image"
                   loading={index < 2 ? "eager" : "lazy"}
