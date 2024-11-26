@@ -14,8 +14,7 @@ const AboutUs: React.FC = () => {
           <div className="about-us__text">
             <h1>Rólunk</h1>
             <p>
-              Az újonnan egyesült MKIFK több mint 150 év tapasztalattal nyújt jogi és nyelvi szolgáltatásokat. Innovatív megoldásaink révén hiteles fordításokkal, nyomdai és digitális tartalomszolgáltatásokkal állunk ügyfeleink rendelkezésére, biztosítva a professzionális és megbízható kiszolgálást.
-            </p>
+            A Közlönykiadó Kft. és az OFFI Zrt. egyesülésével létrejött MKIFK Zrt. több mint 150 év múltra visszatekintően nyújt professzionális, állami szintű jogi és nyelvi szolgáltatásokat. Innovatív megoldásaink része a hiteles fordítás és tolmácsolás, a Magyar Közlöny és egyéb ágazati kiadványok kiadása, a Nemzeti Jogszabálytár szakmai fenntartása.            </p>
           </div>
         </div>
       </div>
