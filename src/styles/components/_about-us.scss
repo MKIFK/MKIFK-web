@@ -1,17 +1,32 @@
 .about-us {
-  padding-top: $spacing-large 0;
   background: $primary-color;
 
+  .lobogo{
+    width: 100%;
+    height: 24px;
+    position: relative;
+    z-index: 3;
+    bottom: -8px;
 
-  h2{
-    color: $font;
+    div{
+      height: 6px;
+      width: 100%;
+      content: '';
+    }
+
+    .red{background: #CD2A3E;}
+    .white{background: white;}
+    .green{background: #436F4D;}
+
+    .white{
+      height: 4px;
+    }
   }
 
   &__content {
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
     height: 470px;
     max-height: 470px;
     justify-content: center;
@@ -23,7 +38,7 @@
 
   &__image {
     position: absolute;
-    bottom: -7px;
+    bottom: -24px;
     right: 0;
   
     img {
@@ -53,7 +68,8 @@
 
     & p{
       font-size: 1.5rem;
-      color: $dark-brown;
+      color: $light-brown-2;
+      font-weight: 100;
     }
 
 

@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/kotelezo-adatszolgaltatas", "destination": "/" },
+    { "source": "/kapcsolat", "destination": "/" },
+    { "source": "/news-post1", "destination": "/" },
+    { "source": "/news-post2", "destination": "/" },
+    { "source": "/news-post3", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}

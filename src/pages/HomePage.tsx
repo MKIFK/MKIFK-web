@@ -8,7 +8,6 @@ const HomePage: React.FC = () => {
     <div className="home-page">
       <AboutUs />
       <Services />
-      <News />
     </div>
   );
 };

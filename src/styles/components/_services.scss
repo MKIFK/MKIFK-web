@@ -1,18 +1,17 @@
 .services {
-  padding: $spacing-large 0;
 
   &__grid {
     display: grid;
     gap: $spacing-medium;
     grid-template-columns: 1fr;
 
+
     @include respond-to(medium) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
 
     @include respond-to(small) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+      }
   }
 
   &__item {
@@ -26,6 +25,7 @@
     .services__text{
       padding: 2rem;
       gap: 1rem;
+      height: 100%;
       display: flex;
       flex-flow: column;
       justify-content: space-between;
