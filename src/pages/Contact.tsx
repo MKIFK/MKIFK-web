@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
             <p>adószám: 10941908-2-42;</p>
             <p>képviseli: Németh Balázs Sándor vezérigazgató</p>
             <p>titkárság:
-              <a href="mailto:your-email@example.com?subject=Hello&body=I wanted to reach out to you.">
+              <a href="mailto:titkarsag@mhk.hu?subject=Hello&body=MHK titkárságnak kérdésem.">
               titkarsag@mhk.hu
               </a>
             </p>
