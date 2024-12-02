@@ -14,9 +14,9 @@
       content: '';
     }
 
-    .red{background: #CD2A3E;}
-    .white{background: white;}
-    .green{background: #436F4D;}
+    .red{background: $national-red;}
+    .white{background: $national-white;}
+    .green{background: $national-green;}
 
     .white{
       height: 4px;
