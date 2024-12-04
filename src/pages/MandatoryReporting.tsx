@@ -1,8 +1,5 @@
 import React from 'react';
 import Button from '../components/Button';
-const filePath = "/assets/documents/MKIFK_SZMSZ.pdf";
-
-
 
 const MandatoryReporting: React.FC = () => {
   return (
@@ -14,7 +11,7 @@ const MandatoryReporting: React.FC = () => {
           <ul>
             <li><a href="https://mhk.hu/">Magyar Közlöny / Közadat</a></li>
             <li><a href="https://www.offi.hu/cegunkrol/kozerdeku-adatok">OFFI / Közadat</a></li>
-            <li><a href={filePath} target="_blank">MKIFK SZMSZ</a></li>
+            <li><a href="https://mkifk.hu/assets/MKIFK_SZMSZ.pdf" target="_blank">MKIFK SZMSZ</a></li>
           </ul>
           <p>További információkért kérjük, vegye fel a kapcsolatot titkárságunkkal.</p>
         </div>
