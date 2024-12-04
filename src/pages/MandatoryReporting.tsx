@@ -12,6 +12,8 @@ const MandatoryReporting: React.FC = () => {
           <ul>
             <li><a href="https://mhk.hu/">Magyar Közlöny / Közadat</a></li>
             <li><a href="https://www.offi.hu/cegunkrol/kozerdeku-adatok">OFFI / Közadat</a></li>
+            <li><a href="assets/documents/MKIFK_SZMSZ.pdf" target="_blank">MKIFK SMSZ</a></li>
+            <li><a href="public/MKIFK_SZMSZ.pdf" target="_blank">MKIFK SMSZ</a></li>
           </ul>
           <p>További információkért kérjük, vegye fel a kapcsolatot titkárságunkkal.</p>
         </div>
