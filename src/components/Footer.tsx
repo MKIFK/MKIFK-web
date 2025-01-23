@@ -14,6 +14,7 @@ const Footer: React.FC = () => {
           <nav className="footer__nav">
             <ul>
               <li><Link to="/kotelezo-adatszolgaltatas">Kötelező adatszolgáltatás</Link></li>
+              <li><Link to="/Kozadat">Közadat</Link></li>
               <li><Link to="/kapcsolat">Kapcsolat</Link></li>
             </ul>
           </nav>

@@ -1,0 +1,40 @@
+.sub-pages {
+  padding: $spacing-large 0;
+
+  ul{
+    li{
+      list-style: initial;
+      margin-left: 20px;
+    }
+  }
+
+  a {
+    color: $dark-brown;
+    text-decoration: underline;
+    transform: all 200ms;
+    background: none;
+
+    &:hover {
+      background: $light-green;
+      color: $dark-green;
+    }
+  }
+
+  &__text {
+    position: relative;
+    z-index: 2;
+
+    @include respond-to(large) {
+      width: 70%; 
+    }
+
+    h1{
+      color: $light-brown;
+    }
+
+    & p{
+      font-size: 1.5rem;
+      color: $dark-brown;
+    }
+  }
+}
