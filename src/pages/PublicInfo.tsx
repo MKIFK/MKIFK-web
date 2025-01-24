@@ -14,7 +14,7 @@ const PublicInfo: React.FC = () => {
         <h4>Management és FB</h4>
         <br></br>
 
-        <h3>Management</h3>
+        <h3>Management:</h3>
         <ul>  
           <li>Németh Balázs Sándor, vezérigazgató</li>
           <li>dr. Nagy Attila, gazdasági vezérigazgató-helyettes</li>
@@ -24,7 +24,7 @@ const PublicInfo: React.FC = () => {
         <br></br>
 
         <h3>Felügyelő Bizottság:</h3>
-          <h4>Elnök</h4>
+          <h4>Elnök:</h4>
           <p>Dr Pilcz Tamás</p>
           <br></br>
 
