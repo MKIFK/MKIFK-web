@@ -14,9 +14,9 @@
       content: '';
     }
 
-    .red{background: $national-red;}
-    .white{background: $national-white;}
-    .green{background: $national-green;}
+    .red{background: #CD2A3E;}
+    .white{background: white;}
+    .green{background: #436F4D;}
 
     .white{
       height: 4px;
@@ -27,12 +27,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
     height: 470px;
     max-height: 470px;
-    justify-content: center;
 
-    @include respond-to(medium) {
- 
+    @media (max-width: $breakpoint-small) { // small alatt
+      height: 100%;
+      max-height: 100%;
+      padding: 16px 0;
     }
   }
 
@@ -71,9 +73,5 @@
       color: $light-brown-2;
       font-weight: 100;
     }
-
-
-
-
   }
 }
