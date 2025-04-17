@@ -23,7 +23,7 @@ const PublicInfo: React.FC = () => {
         </ul>
         <br></br>
 
-        <h3>Felügyelő Bizottság:</h3>
+        <h3>Felügyelőbizottság:</h3>
           <h4>Elnök:</h4>
           <p>dr. Nyárádi Réka</p>
           <br></br>
