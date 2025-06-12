@@ -6,6 +6,7 @@ const MandatoryReporting: React.FC = () => {
     <div className="sub-pages">
       <div className="container">
         <h1>Kötelező adatszolgáltatás</h1>
+        
         <div className="mandatory-reporting__content">
           <p>A 2024-re vonatkozó közérdekű adatok az alábbi linkeken érhetőek el:</p>
           <ul>
@@ -14,8 +15,18 @@ const MandatoryReporting: React.FC = () => {
             <li><a href="https://mkifk.hu/assets/MKIFK_SZMSZ.pdf" target="_blank">MKIFK SZMSZ</a></li>
             <li><a href="https://mkifk.hu/assets/eves-szakreferensi-jelentes-2024-MKIFK-Zrt.pdf" target="_blank">2024-es Energetikai Szakreferensi Jelentés</a></li>
           </ul>
+        </div>
+        <br></br>
+
+        <div className="mandatory-reporting__content">
+          <p>A 2025-re vonatkozó közérdekű adatok az alábbi linkeken érhetőek el:</p>
+          <ul>
+            <li><a href="https://mkifk.hu/assets/eves-szakreferensi-jelentes-2024-MKIFK-Zrt.pdf" target="_blank">Adatkezelési tájékoztató</a></li>
+          </ul>
+          <br></br>
           <p>További információkért kérjük, vegye fel a kapcsolatot titkárságunkkal.</p>
         </div>
+
       </div>
     </div>
   );
