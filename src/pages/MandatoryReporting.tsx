@@ -21,7 +21,7 @@ const MandatoryReporting: React.FC = () => {
         <div className="mandatory-reporting__content">
           <p>A 2025-re vonatkozó közérdekű adatok az alábbi linkeken érhetőek el:</p>
           <ul>
-            <li><a href="https://mkifk.hu/assets/eves-szakreferensi-jelentes-2024-MKIFK-Zrt.pdf" target="_blank">Adatkezelési tájékoztató</a></li>
+            <li><a href="https://mkifk.hu/assets/Adatkezelesi_tajekoztato_honlap.pdf" target="_blank">Adatkezelési tájékoztató</a></li>
           </ul>
           <br></br>
           <p>További információkért kérjük, vegye fel a kapcsolatot titkárságunkkal.</p>
