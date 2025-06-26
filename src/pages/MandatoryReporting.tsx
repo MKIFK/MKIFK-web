@@ -23,8 +23,8 @@ const MandatoryReporting: React.FC = () => {
           <ul>
             <li><a href="https://mkifk.hu/assets/Adatkezelesi_tajekoztato_honlap.pdf" target="_blank">Adatkezelési tájékoztató</a></li>
             <li><a href="https://mkifk.hu/assets/Kameraszabályzat.pdf" target="_blank">Kameraszabályzat</a></li>
-            <li><a href="" target="_blank">Érintetti jogok érvényesítéséhez szükséges nyomtatvány</a></li>
-            <li><a href="" target="_blank">Tájékoztató a kamerás megfigyelésről</a></li>
+            <li><a href="https://mkifk.hu/assets/Érintetti jogok érvényesítéséhez szükséges nyomtatvány.pdf" target="_blank">Érintetti jogok érvényesítéséhez szükséges nyomtatvány</a></li>
+            <li><a href="https://mkifk.hu/assets/Tájékoztató a kamerás megyfigyelésről.pdf" target="_blank">Tájékoztató a kamerás megfigyelésről</a></li>
           </ul>
           <br></br>
           <p>További információkért kérjük, vegye fel a kapcsolatot titkárságunkkal.</p>
