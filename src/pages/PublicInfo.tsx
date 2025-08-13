@@ -9,7 +9,7 @@ const PublicInfo: React.FC = () => {
         <h1>Közadat</h1>
         <br></br>
 
-        <h2>A szerv vezetői:</h2>
+        <h2>Az MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt vezetői:</h2>
 
         <h4>Management és FB</h4>
         <br></br>
@@ -33,6 +33,32 @@ const PublicInfo: React.FC = () => {
             <li>Babus Fruzsina</li>
             <li>dr. Nagy Annamária</li>
             <li>dr. Nyárádi Réka</li>
+          </ul>
+
+          <br></br>
+
+          <h3>Magyar Cégadat Szolgáltató Kft.:</h3>
+          <h3>Felügyelőbizottság:</h3>
+          <h4>Elnök:</h4>
+          <p>Dr. Baán Tamás</p>
+          <br></br>
+
+          <h4>Tagok:</h4>
+          <ul>
+            <li>Guba Zoltán András</li>
+            <li>Árnyas Alexandra</li>
+          </ul>
+          <br></br>
+
+          <h3>Magyar Céginformáció Fejlesztő Kft.:</h3>
+          <h4>Elnök:</h4>
+          <p>Szántai János</p>
+          <br></br>
+
+          <h4>Tagok:</h4>
+          <ul>
+            <li>dr. Kovács Eszter</li>
+            <li>dr. Pásztor Petra Judit</li>
           </ul>
 
         </div>
