@@ -32,7 +32,6 @@ const PublicInfo: React.FC = () => {
           <ul>
             <li>Babus Fruzsina</li>
             <li>dr. Nagy Annamária</li>
-            <li>dr. Nyárádi Réka</li>
           </ul>
 
           <br></br>
