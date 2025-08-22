@@ -19,7 +19,7 @@ const PublicInfo: React.FC = () => {
           <li>Németh Balázs Sándor, vezérigazgató</li>
           <li>dr. Nagy Attila, gazdasági vezérigazgató-helyettes</li>
           <li>Ruthmayer János, fordítási és fordításhitelesítésért felelős vezérigazgató-helyettes</li>
-          <li>Tamási Gábor, közlönykiadói és informatikai ügyekért felelős vezérigazgató-helyettes</li>
+          <li>Tamási István Gábor, közlönykiadói és informatikai ügyekért felelős vezérigazgató-helyettes</li>
         </ul>
         <br></br>
 
