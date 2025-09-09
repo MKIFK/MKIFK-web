@@ -50,6 +50,7 @@ const PublicInfo: React.FC = () => {
           <br></br>
 
           <h3>Magyar Céginformáció Fejlesztő Kft.:</h3>
+          <h3>Felügyelőbizottság:</h3>
           <h4>Elnök:</h4>
           <p>Szántai János</p>
           <br></br>
