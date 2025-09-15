@@ -8,6 +8,7 @@ import PublicInfo from './pages/PublicInfo';
 import HomePage from './pages/HomePage';
 import MandatoryReporting from './pages/MandatoryReporting';
 import Contact from './pages/Contact';
+import KozerdekulAdatTest from './pages/KozerdekulAdatTest';
 
 
 // NEWS PAGES 
@@ -26,6 +27,7 @@ const App: React.FC = () => {
             <Route path="/kotelezo-adatszolgaltatas" element={<MandatoryReporting />} />
             <Route path="/kapcsolat" element={<Contact />} />
             <Route path="/kozadat" element={<PublicInfo />} />
+            <Route path="/kozerdeku-adat-test" element={<KozerdekulAdatTest />} />
             <Route path="/news-post1" element={<NewsPost1 />} />
             <Route path="/news-post2" element={<NewsPost2 />} />
             <Route path="/news-post3" element={<NewsPost3 />} />

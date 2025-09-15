@@ -1,0 +1,526 @@
+// Kozerdeku Adat Test Page Styles - Based on Figma Design
+.kozerdeku-adat-test {
+  padding: $spacing-large 0;
+  background-color: #f5f4f0; // Light brown background from Figma
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px; // 100px side margins based on Figma
+  }
+
+  // Main Title
+  .main-title {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53.92px;
+    color: #0d2020; // Dark text color from Figma
+    margin: 40px 0 48px 0; // Top and bottom spacing from Figma
+    text-transform: none; // Override global h1 uppercase
+  }
+
+  // Section Titles (h2)
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.136px;
+    color: #0d2020;
+    margin: 48px 0 32px 0;
+    text-transform: none; // Override global h2 uppercase
+  }
+
+  // Subsection Titles (h3)
+  .subsection-title {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.352px;
+    color: #0d2020;
+    margin: 32px 0 24px 0;
+    text-transform: none; // Override global h3 uppercase
+  }
+
+  // Management/smaller titles (h4)
+  .management-title {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.568px;
+    color: #0d2020;
+    margin: 24px 0 16px 0;
+    text-transform: none;
+  }
+
+  // Regular text paragraphs
+  p {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0d2020;
+    margin: 0 0 8px 0;
+  }
+
+  // Company name - longer text
+  .company-name {
+    margin-bottom: 12px;
+  }
+
+  // Info rows for contact details
+  .info-row {
+    display: flex;
+    margin-bottom: 8px;
+    
+    .label {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      width: 148px; // Fixed width based on Figma spacing
+      flex-shrink: 0;
+    }
+    
+    .value {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      
+      &.email-link {
+        color: #1f4c4c; // Dark green for email links
+      }
+    }
+  }
+
+  // PDF Links styling
+  .pdf-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none; // Remove default underline
+      color: #1f4c4c; // Primary green color
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    
+    .pdf-icon {
+      font-size: 24px;
+      color: #1f4c4c; // Primary green color
+      margin-right: 8px;
+      flex-shrink: 0;
+      cursor: pointer;
+      text-decoration: none; // Ensure icon is never underlined
+      font-variation-settings: 
+        'FILL' 1, 
+        'wght' 300, // Lighter weight for more rounded appearance
+        'GRAD' 0, 
+        'opsz' 24;
+    }
+    
+    .link-text {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1f4c4c; // Dark green for links
+      text-decoration: underline; // Only underline the text, not the icon
+    }
+  }
+
+  .pdf-links {
+    .pdf-link {
+      margin-bottom: 8px;
+    }
+  }
+
+  // Management section styling
+  .management-section {
+    margin-bottom: 24px;
+    
+    .management-list {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 0;
+      
+      li {
+        font-family: 'Geologica', sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0d2020;
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  // Supervisory board styling
+  .supervisory-board {
+    margin-bottom: 32px;
+    
+    .board-info {
+      .board-chairman, .board-members {
+        margin-bottom: 16px;
+        
+        p {
+          margin-bottom: 4px;
+          
+          strong {
+            font-weight: 400; // Keep consistent with design
+          }
+        }
+        
+        .board-list {
+          list-style: disc;
+          padding-left: 20px;
+          margin: 0;
+          
+          li {
+            font-family: 'Geologica', sans-serif;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 20px;
+            color: #0d2020;
+            margin-bottom: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  // Subsidiary organizations
+  .subsidiary-list {
+    p {
+      margin-bottom: 8px;
+      
+      &.greyed-out {
+        color: #5e5c57; // Greyed out text color from Figma
+      }
+    }
+  }
+
+  // Authority info
+  .authority-info {
+    p {
+      margin-bottom: 8px;
+    }
+  }
+
+  // Services list (ordered list)
+  .services-list {
+    list-style: decimal;
+    padding-left: 20px;
+    margin: 0;
+    
+    li {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      margin-bottom: 4px;
+    }
+  }
+
+  // Contract description
+  .contract-description {
+    .link-text {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1f4c4c;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // EU Development Projects styling
+  .eu-fejlesztesek {
+    .project-block {
+      margin-bottom: 32px;
+      
+      &:last-child {
+        margin-bottom: 24px;
+      }
+    }
+    
+    .project-title {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #0d2020;
+      margin: 0 0 20px 0;
+      text-transform: none;
+    }
+    
+    .project-details {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 0;
+      
+      li {
+        font-family: 'Geologica', sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0d2020;
+        margin-bottom: 8px;
+      }
+      
+      .partner-list {
+        list-style: circle;
+        padding-left: 20px;
+        margin: 8px 0;
+        
+        li {
+          margin-bottom: 4px;
+          font-size: 15px;
+        }
+      }
+    }
+    
+    .project-description {
+      margin-top: 32px;
+    }
+    
+    .project-section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #0d2020;
+      margin: 32px 0 24px 0;
+      text-transform: none;
+      
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    
+    .project-goal-title {
+      font-family: 'Cinzel', serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.568px;
+      color: #0d2020;
+      margin: 32px 0 16px 0;
+      text-transform: none;
+    }
+    
+    .project-results,
+    .project-connections {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 12px 0 16px 0;
+      
+      li {
+        font-family: 'Geologica', sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0d2020;
+        margin-bottom: 6px;
+      }
+    }
+    
+    p {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      margin-bottom: 12px;
+      
+      strong {
+        font-weight: 400;
+      }
+    }
+  }
+
+  // Placeholder content styling (legacy)
+  .placeholder-content {
+    p {
+      margin-bottom: 8px;
+      
+      strong {
+        font-weight: 400;
+      }
+    }
+  }
+
+  // Energy reports section
+  .energy-reports {
+    p {
+      margin-bottom: 8px;
+    }
+  }
+
+  // Accordion Styling
+  .accordion {
+    margin-bottom: 24px;
+    border: 1px solid #e0ddd7;
+    overflow: hidden;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #e0ddd7;
+    
+    &:hover {
+      background-color: #f8f7f4;
+    }
+    
+    .section-title {
+      margin: 0;
+      flex: 1;
+    }
+    
+    .chevron-icon {
+      font-size: 24px;
+      color: #1f4c4c;
+      transition: transform 0.3s ease;
+      margin-left: 16px;
+      
+      &.open {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    
+    &.open {
+      max-height: none;
+      padding: 0 24px 24px 24px;
+    }
+  }
+
+  // Section spacing (legacy support)
+  section {
+    margin-bottom: 48px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Subsection spacing within sections
+  .szervezeti-adatok,
+  .mukodes-jogi-keretei,
+  .gazdalkodasi-adatok {
+    > div {
+      margin-bottom: 32px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Specific spacing adjustments based on Figma
+  .elerehetsegi-adatok {
+    margin-bottom: 32px;
+  }
+
+  .szervezeti-felepites {
+    margin-bottom: 32px;
+  }
+
+  .vezetoseg {
+    margin-bottom: 32px;
+  }
+
+  .tulajdonban-levo-szervezetek {
+    margin-bottom: 32px;
+  }
+
+  .felettes-szerv {
+    margin-bottom: 0;
+  }
+
+  .alaptevekenyseq {
+    margin-bottom: 32px;
+  }
+
+  .kozszolgaltatasok {
+    margin-bottom: 32px;
+  }
+
+  .kozerdeku-adatigenyles {
+    margin-bottom: 0;
+  }
+
+  .eves-beszamolok {
+    margin-bottom: 32px;
+  }
+
+  .mukodes {
+    > div {
+      margin-bottom: 24px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Remove default list styling for unordered lists
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      margin-bottom: 4px;
+    }
+  }
+  
+  // Default ordered list styling (for services list)
+  ol:not(.services-list) {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      font-family: 'Geologica', sans-serif;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0d2020;
+      margin-bottom: 4px;
+    }
+  }
+}
