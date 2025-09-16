@@ -347,13 +347,14 @@ const KozerdekulAdatTest: React.FC = () => {
                   <li>eFizetés: EFER, majd az NDÁP eFizetés szolgáltatás használata</li>
                 </ul>
                 
-                <h4 className="project-goal-title">A projekt célja:</h4>
+                <h4>A projekt célja:</h4>
                 <p>A Jogi személyek egységes nyilvántartása projekt célja a jelenleg még önálló szigetekként működő jogi személyek nyilvántartásának egységesítése, közös platformra és eljárási modulokba történő illesztése.
                 <br></br>
                 Ezáltal a projekt keretében új és modern architektúrán alapuló egységes nyilvántartás jön létre, valamint ügyfélbarát, digitális állampolgári eljárással biztosítható a cégalapítási-, módosítási, megszüntetési folyamat. Az alapjaiban megújuló, közös felépítésen és logikai elven működő nyilvántartás kialakítása mellett valamennyi jogi személynek minősülő entitás ügyintézési felülete és adatpublikációja új, közös platformra kerül. A Nyilvántartás egységesítéséről és a kialakítandó informatikai rendszerről a „2021. évi XCII. törvény a jogi személyek nyilvántartásáról és a nyilvántartási eljárásról” című törvény (továbbiakban: Jszny. törvény) rendelkezik, melynek hatályba lépése 2026. január 1-je.
                 </p>
+                <br></br>
                 <h4>A projekt célcsoportja:</h4>
-                <ul>
+                <ul className="project-connections">
                   <li>Jogi személyek adataival dolgozó hatóságok;</li>
                   <li>Nyilvántartás gazdák;</li>
                   <li>Döntéshozó állami felsővezetők;</li>    
@@ -361,6 +362,7 @@ const KozerdekulAdatTest: React.FC = () => {
                   <li>Jogi személyek adataira egyéb okból kíváncsi személyek, szervezetek;</li>
                   <li>Európai Uniós céginformációs együttműködésben résztvevők.</li>
                 </ul>
+                <br></br>
                 <h4>A projekt indikátorai:</h4>
                 <p>
                   Digitális szolgáltatások, termékek és eljárások kifejlesztése céljából támogatott közintézmények (közintézmény): 1 <br />
