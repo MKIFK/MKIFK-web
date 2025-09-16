@@ -23,6 +23,18 @@
   'wght' 400, 
   'GRAD' 0, 
   'opsz' 24;
+  
+  /* Prevent flash of unstyled text while font loads */
+  font-display: swap;
+  
+  /* Ensure proper rendering */
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  
+  /* Optimize for icon rendering */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .geologica-regular {

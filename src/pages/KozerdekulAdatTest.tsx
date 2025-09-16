@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const KozerdekulAdatTest: React.FC = () => {
   const [openAccordions, setOpenAccordions] = useState<{[key: string]: boolean}>({
-    szervezeti: true, // All accordions open by default
-    jogi: true,
-    gazdalkodasi: true
+    szervezeti: false, // All accordions closed by default
+    jogi: false,
+    gazdalkodasi: false
   });
 
   const toggleAccordion = (key: string) => {
@@ -70,7 +70,7 @@ const KozerdekulAdatTest: React.FC = () => {
           <div className="szervezeti-felepites">
             <h3 className="subsection-title">Szervezeti felépítés</h3>
             <div className="pdf-link">
-              <a href="#">
+              <a href="/assets/mkifk_szervezeti_abra.pdf" target="_blank">
                 <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                 <span className="link-text">Szervezeti ábra megtekintése</span>
               </a>
@@ -152,31 +152,31 @@ const KozerdekulAdatTest: React.FC = () => {
             <h3 className="subsection-title">A szerv alaptevékenysége, adatvédelmi és adatbiztonsági szabályzata</h3>
             <div className="pdf-links">
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/MKIFK_SZMSZ.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Szervezeti és működési szabályzat</span>
                 </a>
               </div>
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/mkifk_adatkezelesi_tajekoztato.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Adatkezelési tájékoztató</span>
                 </a>
               </div>
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/kameraszabalyzat.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Kameraszabályzat</span>
                 </a>
               </div>
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/tájékoztató_a_kamerás_megyfigyelésről.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Tájékoztató kamerás megfigyelésről</span>
                 </a>
               </div>
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/érintetti_jogok_érvényesítéséhez_szükséges_nyomtatvány.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Érintett jogok érvényesítéséhez szükséges nyilatkozat</span>
                 </a>
@@ -205,7 +205,7 @@ const KozerdekulAdatTest: React.FC = () => {
           <div className="kozerdeku-adatigenyles">
             <h3 className="subsection-title">Közérdekű adatigénylés</h3>
             <div className="pdf-link">
-              <a href="#">
+              <a href="/assets/mkifk_Igenylolap_kozerdeku_adatokhoz.pdf" target="_blank">
                 <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                 <span className="link-text">Igénylőlap</span>
               </a>
@@ -231,13 +231,13 @@ const KozerdekulAdatTest: React.FC = () => {
             <h3 className="subsection-title">Éves beszámolók</h3>
             <div className="pdf-links">
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/mkifk_zrt_2024.12.31._beszamolp.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">2024. évi beszámoló</span>
                 </a>
               </div>
               <div className="pdf-link">
-                <a href="#">
+                <a href="/assets/mkifk_zrt_2024.12.31._fuggetlen_konyvvizsgaloi_jelentes.pdf" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">2024. évi könyvvizsgálói jelentés </span>
                 </a>
@@ -252,19 +252,19 @@ const KozerdekulAdatTest: React.FC = () => {
               <h4 className="management-title">Foglalkoztatottak adatai</h4>
               <div className="pdf-links">
                 <div className="pdf-link">
-                  <a href="#">
+                  <a href="/assets/mkifk_foglalkoztatottak_2024_IV.pdf" target="_blank">
                     <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                     <span className="link-text">2024. IV. negyedév</span>
                   </a>
                 </div>
                 <div className="pdf-link">
-                  <a href="#">
+                  <a href="/assets/mkifk_foglalkoztatottak_2025_I.pdf" target="_blank">
                     <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                     <span className="link-text">2025. I. negyedév</span>
                   </a>
                 </div>
                 <div className="pdf-link">
-                  <a href="#">
+                  <a href="#" target="_blank">
                     <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                     <span className="link-text">2025. II. negyedév</span>
                   </a>
@@ -275,7 +275,7 @@ const KozerdekulAdatTest: React.FC = () => {
             <div className="szerzodesek">
               <h4 className="management-title">Szerződések</h4>
               <p className="contract-description">
-                <a href="#" className="link-text">MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zártkörűen Működő Részvénytársaság által kötött, nettó ötmillió forintot elérő vagy azt meghaladó értékű árubeszerzésre, építési beruházásra vagy szolgáltatás megrendelésre vonatkozó szerződések</a>
+                <a href="/assets/mkifk_netto_5m_feletti_szerzodesek.pdf" target="_blank" className="link-text">MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zártkörűen Működő Részvénytársaság által kötött, nettó ötmillió forintot elérő vagy azt meghaladó értékű árubeszerzésre, építési beruházásra vagy szolgáltatás megrendelésre vonatkozó szerződések</a>
               </p>
             </div>
 
@@ -378,7 +378,7 @@ const KozerdekulAdatTest: React.FC = () => {
             <div className="kozbeszerzesi-informaciok">
               <h4 className="management-title">Közbeszerzési információk</h4>
               <div className="pdf-link">
-                <a href="#">
+                <a href="#" target="_blank">
                   <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                   <span className="link-text">Éves közbeszerzési terv</span>
                 </a>
@@ -390,7 +390,7 @@ const KozerdekulAdatTest: React.FC = () => {
               <div className="energy-reports">
                 <p>Éves energetikai jelentések:</p>
                 <div className="pdf-link">
-                  <a href="#">
+                  <a href="/assets/eves-szakreferensi-jelentes-2024-MKIFK-Zrt.pdf" target="_blank">
                     <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                     <span className="link-text">2024. évi energetikai jelentés</span>
                   </a>
