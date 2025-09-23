@@ -6,10 +6,19 @@
 
 body {
   font-family: $font-family-base;
-  font-size: $font-size-base;
+  font-size: $font-size-base; // 14px on mobile
   line-height: $line-height-base;
   color: black;
   background-color: $background-color;
+  
+  // Scale up font size on larger screens
+  @include respond-to(small) {
+    font-size: $font-size-base-sm; // 15px
+  }
+  
+  @include respond-to(medium) {
+    font-size: $font-size-base-md; // 16px
+  }
 }
 
 a {

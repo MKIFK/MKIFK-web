@@ -18,25 +18,64 @@ $primary-color: $dark-green;
 $secondary-color: $dark-brown;
 $background-color: $light-background;
 
-// Breakpoints
-$breakpoint-small: 576px;
-$breakpoint-medium: 768px;
-$breakpoint-large: 992px;
+// Breakpoints (Mobile-first approach)
+$breakpoint-xs: 320px;   // Extra small devices (small phones)
+$breakpoint-small: 576px; // Small devices (phones)
+$breakpoint-medium: 768px; // Medium devices (tablets)
+$breakpoint-large: 992px;  // Large devices (desktops)
+$breakpoint-xl: 1200px;    // Extra large devices
 
 
-// Typography
+// Typography (Mobile-first approach)
 /*$font-family-display: 'Geologica', sans-serif;*/
 $font-family-display: 'Cinzel', serif;
 $font-family-base: 'Geologica', sans-serif;
-$font-size-base: 16px;
-$line-height-base: 1.5;
 
-// Spacing
+// Base font sizes (mobile-first)
+$font-size-base: 14px;        // Mobile base
+$font-size-base-sm: 15px;     // Small screens
+$font-size-base-md: 16px;     // Medium screens and up
+$line-height-base: 1.6;       // Better readability on mobile
+
+// Typography scale for mobile
+$font-size-h1-mobile: 1.75rem;  // 24px at 14px base
+$font-size-h2-mobile: 1.5rem;   // 21px at 14px base  
+$font-size-h3-mobile: 1.25rem;  // 17.5px at 14px base
+$font-size-h4-mobile: 1.125rem; // 15.75px at 14px base
+
+// Typography scale for larger screens
+$font-size-h1-desktop: 2.5rem;  // 40px at 16px base
+$font-size-h2-desktop: 2rem;    // 32px at 16px base
+$font-size-h3-desktop: 1.5rem;  // 24px at 16px base
+$font-size-h4-desktop: 1.25rem; // 20px at 16px base
+
+// Spacing (Mobile-first approach)
+// Mobile spacing (touch-friendly)
+$spacing-xs: 4px;
 $spacing-small: 8px;
-$spacing-medium: 16px;
-$spacing-large: 24px;
+$spacing-medium: 12px;       // Reduced from 16px for mobile
+$spacing-large: 16px;        // Reduced from 24px for mobile
+$spacing-xl: 24px;
 
-$logoHeight: 70px;
+// Desktop spacing (larger screens)
+$spacing-medium-md: 16px;    // Original medium spacing for tablets+
+$spacing-large-md: 24px;     // Original large spacing for tablets+
+$spacing-xl-md: 32px;        // Extra large spacing for desktops
+
+// Container padding (mobile-first)
+$container-padding-mobile: 16px;
+$container-padding-tablet: 24px;
+$container-padding-desktop: 32px;
+
+// Logo heights (responsive across all breakpoints)
+$logoHeight: 70px; // Keep for backward compatibility
+
+// Mobile-first responsive logo sizes
+$logo-height-xs: 45px;      // Extra small devices (320px+)
+$logo-height-small: 50px;   // Small devices (576px+)  
+$logo-height-medium: 60px;  // Medium devices (768px+)
+$logo-height-large: 70px;   // Large devices (992px+)
+$logo-height-xl: 80px;      // Extra large devices (1200px+)
 
 // Border
 $border-radius-medium: 0px;

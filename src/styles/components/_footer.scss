@@ -1,8 +1,16 @@
 .footer {
   background-color: $mid-green;
   color: $background-color;
-  padding: $spacing-large 0;
+  padding: $spacing-large 0; // Mobile: 16px
   margin-top: $spacing-large;
+
+  @include respond-to(medium) {
+    padding: $spacing-large-md 0; // Tablet+: 24px
+  }
+
+  @include respond-to(xl) {
+    padding: $spacing-xl-md 0; // Large desktop: 32px
+  }
 
   &__content {
     display: flex;
@@ -17,9 +25,25 @@
   }
 
   &__logo {
-    height: $logoHeight;
+    height: $logo-height-xs; // Mobile first: 45px
     opacity: 100%;  
     transition: all 200ms;
+
+    @include respond-to(small) {
+      height: $logo-height-small; // 50px
+    }
+
+    @include respond-to(medium) {
+      height: $logo-height-medium; // 60px
+    }
+
+    @include respond-to(large) {
+      height: $logo-height-large; // 70px
+    }
+
+    @include respond-to(xl) {
+      height: $logo-height-xl; // 80px
+    }
 
     &:hover{
       opacity: 60%;

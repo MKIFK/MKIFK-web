@@ -1,6 +1,10 @@
 .header {
-  padding: $spacing-medium 0;
+  padding: $spacing-medium 0; // Mobile: 12px
   background: $primary-color;
+  
+  @include respond-to(medium) {
+    padding: $spacing-medium-md 0; // Tablet+: 16px
+  }
 
   &__content {
     display: flex;
@@ -11,22 +15,70 @@
   &__logo {
     font-size: 1.5rem;
     font-weight: bold;
-    height: 100px;
+    height: calc($logo-height-xs + 30px); // Container height = logo + padding
     display: flex;
     align-items: center;
     transition: all 200ms;
 
+    @include respond-to(small) {
+      height: calc($logo-height-small + 30px);
+    }
+
+    @include respond-to(medium) {
+      height: calc($logo-height-medium + 30px);
+    }
+
+    @include respond-to(large) {
+      height: calc($logo-height-large + 30px);
+    }
+
+    @include respond-to(xl) {
+      height: calc($logo-height-xl + 30px);
+    }
+
     img{
-      max-height: $logoHeight;
+      max-height: $logo-height-xs; // Mobile first: 45px
       transition: all 200ms;
+
+      @include respond-to(small) {
+        max-height: $logo-height-small; // 50px
+      }
+
+      @include respond-to(medium) {
+        max-height: $logo-height-medium; // 60px
+      }
+
+      @include respond-to(large) {
+        max-height: $logo-height-large; // 70px
+      }
+
+      @include respond-to(xl) {
+        max-height: $logo-height-xl; // 80px
+      }
     }
 
     span{
-      margin-left: 8px;
+      margin-left: $spacing-small;
       color: white;
       font-weight: 200;
-      font-size: 16px;
+      font-size: 14px; // Mobile first
       transition: all 200ms;
+
+      @include respond-to(small) {
+        font-size: 15px;
+      }
+
+      @include respond-to(medium) {
+        font-size: 16px;
+      }
+
+      @include respond-to(large) {
+        font-size: 17px;
+      }
+
+      @include respond-to(xl) {
+        font-size: 18px;
+      }
     }
 
     &:hover{
@@ -51,7 +103,11 @@
       left: 0;
       right: 0;
       background-color: $background-color;
-      padding: $spacing-medium;
+      padding: $spacing-large; // Mobile: 16px
+      
+      @include respond-to(medium) {
+        padding: $spacing-large-md; // Tablet+: 24px
+      }
     }
 
     ul {
@@ -61,7 +117,7 @@
 
       @include respond-to(medium) {
         flex-direction: row;
-        gap: $spacing-medium;
+        gap: $spacing-medium-md; // 16px on tablets+
 
         a{
           font-weight: 200;

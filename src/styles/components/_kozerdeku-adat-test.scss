@@ -1,55 +1,83 @@
-// Kozerdeku Adat Test Page Styles - Based on Figma Design
+// Kozerdeku Adat Test Page Styles - Mobile-first responsive design
 .kozerdeku-adat-test {
-  padding: $spacing-large 0;
+  padding: $spacing-large 0; // Mobile: 16px
   background-color: #f5f4f0; // Light brown background from Figma
+  
+  @include respond-to(medium) {
+    padding: $spacing-xl-md 0; // Tablet+: 32px
+  }
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  // Main Title
+  // Main Title - Mobile-first responsive
   .main-title {
     font-family: 'Cinzel', serif;
-    font-size: 40px;
+    font-size: $font-size-h1-mobile; // Mobile: 1.75rem (24.5px at 14px base)
     font-weight: 400;
-    line-height: 53.92px;
+    line-height: 1.35;
     color: #0d2020; // Dark text color from Figma
-    margin: 40px 0 48px 0; // Top and bottom spacing from Figma
+    margin: $spacing-xl 0 $spacing-xl 0; // Mobile: 24px
     text-transform: none; // Override global h1 uppercase
+    
+    @include respond-to(medium) {
+      font-size: 2.5rem; // Tablet+: 40px at 16px base
+      line-height: 1.35;
+      margin: $spacing-xl-md 0 3rem 0; // Tablet+: 32px 0 48px 0
+    }
   }
 
-  // Section Titles (h2)
+  // Section Titles (h2) - Mobile-first responsive
   .section-title {
     font-family: 'Cinzel', serif;
-    font-size: 32px;
+    font-size: $font-size-h2-mobile; // Mobile: 1.5rem (21px at 14px base)
     font-weight: 400;
-    line-height: 43.136px;
+    line-height: 1.35;
     color: #0d2020;
-    margin: 48px 0 32px 0;
+    margin: $spacing-xl 0 $spacing-large 0; // Mobile: 24px 0 16px 0
     text-transform: none; // Override global h2 uppercase
+    
+    @include respond-to(medium) {
+      font-size: 2rem; // Tablet+: 32px at 16px base
+      line-height: 1.35;
+      margin: 3rem 0 2rem 0; // Tablet+: 48px 0 32px 0
+    }
   }
 
-  // Subsection Titles (h3)
+  // Subsection Titles (h3) - Mobile-first responsive
   .subsection-title {
     font-family: 'Cinzel', serif;
-    font-size: 24px;
+    font-size: $font-size-h3-mobile; // Mobile: 1.25rem (17.5px at 14px base)
     font-weight: 400;
-    line-height: 32.352px;
+    line-height: 1.35;
     color: #0d2020;
-    margin: 32px 0 24px 0;
+    margin: $spacing-large 0 $spacing-medium 0; // Mobile: 16px 0 12px 0
     text-transform: none; // Override global h3 uppercase
+    
+    @include respond-to(medium) {
+      font-size: 1.5rem; // Tablet+: 24px at 16px base
+      line-height: 1.35;
+      margin: 2rem 0 1.5rem 0; // Tablet+: 32px 0 24px 0
+    }
   }
 
-  // Management/smaller titles (h4)
+  // Management/smaller titles (h4) - Mobile-first responsive
   .management-title {
     font-family: 'Cinzel', serif;
-    font-size: 16px;
+    font-size: $font-size-h4-mobile; // Mobile: 1.125rem (15.75px at 14px base)
     font-weight: 400;
-    line-height: 21.568px;
+    line-height: 1.35;
     color: #0d2020;
-    margin: 24px 0 16px 0;
+    margin: $spacing-medium 0 $spacing-small 0; // Mobile: 12px 0 8px 0
     text-transform: none;
+    
+    @include respond-to(medium) {
+      font-size: 1rem; // Tablet+: 16px at 16px base
+      line-height: 1.35;
+      margin: 1.5rem 0 1rem 0; // Tablet+: 24px 0 16px 0
+    }
   }
 
   // Regular text paragraphs

@@ -34,7 +34,7 @@
     @media (max-width: $breakpoint-small) { // small alatt
       height: 100%;
       max-height: 100%;
-      padding: 16px 0;
+      padding: $spacing-large 0; // Mobile: 16px
     }
   }
 
@@ -69,9 +69,13 @@
     }
 
     & p{
-      font-size: 1.5rem;
+      font-size: 1.25rem; // Mobile: smaller size
       color: $light-brown-2;
       font-weight: 100;
+      
+      @include respond-to(medium) {
+        font-size: 1.5rem; // Tablet+: original size
+      }
     }
   }
 }

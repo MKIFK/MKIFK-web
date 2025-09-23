@@ -51,30 +51,67 @@
 h1, h2, h3, h4, h5 {
   font-family: $font-family-display;
   font-weight: 400;
+  line-height: 1.2; // Tighter line-height for headings
+  margin-bottom: $spacing-small;
+  
+  @include respond-to(medium) {
+    margin-bottom: $spacing-medium;
+  }
 }
 
-p{
+p {
   font-family: $font-family-base;
   font-weight: 200;
+  line-height: $line-height-base;
+  margin-bottom: $spacing-medium;
+  
+  @include respond-to(medium) {
+    margin-bottom: $spacing-large;
+  }
 }
 
-.section-title{
+.section-title {
   padding: $spacing-large 0 $spacing-medium;
+  
+  @include respond-to(medium) {
+    padding: $spacing-xl-md 0 $spacing-large-md;
+  }
 }
 
-h1{
-  font-size: 2.5rem;
+// Mobile-first typography scaling
+h1 {
+  font-size: $font-size-h1-mobile;
+  
+  @include respond-to(medium) {
+    font-size: $font-size-h1-desktop;
+  }
 }
 
-h2{
-  font-size: 2rem;
+h2 {
+  font-size: $font-size-h2-mobile;
+  
+  @include respond-to(medium) {
+    font-size: $font-size-h2-desktop;
+  }
 }
 
-h3{
-  font-size: 1.5rem;
+h3 {
+  font-size: $font-size-h3-mobile;
+  
+  @include respond-to(medium) {
+    font-size: $font-size-h3-desktop;
+  }
 }
 
-h1, h2, h3{
+h4 {
+  font-size: $font-size-h4-mobile;
+  
+  @include respond-to(medium) {
+    font-size: $font-size-h4-desktop;
+  }
+}
+
+h1, h2, h3 {
   text-transform: uppercase;
 }
 
