@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const KozerdekulAdatTest: React.FC = () => {
+const KozerdekuAdat: React.FC = () => {
   const [openAccordions, setOpenAccordions] = useState<{[key: string]: boolean}>({
     szervezeti: false, // All accordions closed by default
     jogi: false,
@@ -264,7 +264,7 @@ const KozerdekulAdatTest: React.FC = () => {
                   </a>
                 </div>
                 <div className="pdf-link">
-                  <a href="#" target="_blank">
+                <a href="/assets/mkifk_foglalkoztatottak_2025_II.pdf" target="_blank">
                     <span className="material-symbols-sharp pdf-icon">picture_as_pdf</span>
                     <span className="link-text">2025. II. negyedév</span>
                   </a>
@@ -405,4 +405,4 @@ const KozerdekulAdatTest: React.FC = () => {
   );
 };
 
-export default KozerdekulAdatTest;
+export default KozerdekuAdat;
