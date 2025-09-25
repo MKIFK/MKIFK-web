@@ -18,7 +18,7 @@ const KozerdekuAdat: React.FC = () => {
     <div className="kozerdeku-adat-test">
       <div className="container">
         {/* Main Title */}
-        <h1 className="main-title">Közérdekű adat</h1>
+        <h1 className="main-title">Közérdekű adatok</h1>
 
         {/* Organizational Data Section */}
         <div className="accordion">
