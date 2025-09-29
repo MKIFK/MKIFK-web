@@ -1,0 +1,21 @@
+{
+  "name": "MKIFK - Magyar Közlönykiadó és Igazságügyi Fordítóközpont ZRT.",
+  "short_name": "MKIFK",
+  "description": "Magyar Könyvvizsgálói Intézet és Fordító Központ",
+  "icons": [
+    {
+      "src": "/assets/images/mkifk-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1F4C4C",
+  "background_color": "#ffffff"
+}
