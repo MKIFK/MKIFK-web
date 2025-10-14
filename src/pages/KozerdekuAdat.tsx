@@ -301,25 +301,6 @@ const KozerdekuAdatok: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="project-block">
-                <h3 className="project-title">Jogi személyek egységes nyilvántartása</h3>
-                <ul className="project-details">
-                  <li>Kedvezményezett neve: Igazságügyi Minisztérium</li>
-                  <li>Konzorciumi partnerek:
-                    <ul className="partner-list">
-                      <li>MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zártkörűen Működő Részvénytársaság</li>
-                      <li>Nemzeti Infokommunikációs Szolgáltató Zrt</li>
-                      <li>Digitális Kormányzati Fejlesztés és Projektmenedzsment Kft.</li>
-                    </ul>
-                  </li>
-                  <li>Fejlesztés tárgya, célja: Jogi személyek egységes nyilvántartása</li>
-                  <li>Szerződött támogatás összege: 10 000 000 000 Ft</li>
-                  <li>A támogatás mértéke (%-ban): 100%</li>
-                  <li>A projekt tervezett befejezési dátuma: 2027.12.31.</li>
-                  <li>Projekt azonosító száma: DIMOP_PLUSZ-1.3.6-23-2023-00001</li>
-                </ul>
-              </div>
-
               <div className="project-description">
                 <h3 className="project-section-title">A projekt tartalmának bemutatása:</h3>
                 <p>A jogi személyeket jelenleg tároló adatbázisok, az ezekhez kapcsolódó informatikai folyamatok nem egységesek. Az adatok eltérő formában és struktúrában vannak kezelve. Az adatszolgáltatások jelentős részében nem optimalizáltan alkalmazzák a digitalizációt és a folyamat-automatizációt, heterogén technikai megoldásokkal készültek el, és egyes esetekben jelentős a szolgáltató felé történő kitettség is. Ez az állampolgárok számára jelentősen megnehezíti az ügyintézést és a tájékozódást is.</p>
