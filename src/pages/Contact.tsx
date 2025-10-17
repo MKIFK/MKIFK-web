@@ -14,12 +14,13 @@ const Contact: React.FC = () => {
             </p>
             <br></br>
             <p>Székhelye: 1085 Budapest, Somogyi Béla u. 6.;</p>
+            <p>Tel.: +36 1 266 9290</p>
             <p>Cégjegyzékszám: 01-10-042469;</p>
             <p>Adószám: 10941908-2-42;</p>
             <p>Képviseli: Németh Balázs Sándor vezérigazgató</p>
             <p>Titkárság:
-              <a href="mailto:titkarsag@mhk.hu?subject=Hello&body=MHK titkárságnak kérdésem.">
-              titkarsag@mhk.hu
+              <a href="mailto:titkarsag@mkifk.hu?subject=Hello&body=MHK titkárságnak kérdésem.">
+               titkarsag@mkifk.hu
               </a>
             </p>
           </div>
@@ -30,13 +31,12 @@ const Contact: React.FC = () => {
             </p>
             <br />
             <p>Telephely: 1062 Budapest, Bajza u. 52.</p>
-            <p>Tel.: +36 1 266 9290</p>
             <p>Mobil: +36 30 986 9396</p>
             <p>Tel.: +36 1 428 9600</p>
             <p>
               E-mail:
               <a href="mailto:info@offi.hu?subject=Kapcsolatfelvétel&body=Tisztelt OFFI!">
-                info@offi.hu
+                 info@offi.hu
               </a>
             </p>
           </div>
@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
             <p>
               Honlap:
               <a href="https://ceginformaciosszolgalat.kormany.hu" target="_blank" rel="noopener noreferrer">
-                https://ceginformaciosszolgalat.kormany.hu
+              https://ceginformaciosszolgalat.kormany.hu
               </a>
             </p>
 
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
             <p>
               Elérhetőség:
               <a href="https://occsz.e-cegjegyzek.hu/?kapcsolat" target="_blank" rel="noopener noreferrer">
-                https://occsz.e-cegjegyzek.hu/?kapcsolat
+                 https://occsz.e-cegjegyzek.hu/?kapcsolat
               </a>
             </p>
           </div>
