@@ -279,6 +279,8 @@ const KozerdekuAdatok: React.FC = () => {
               </p>
             </div>
 
+            {/* EU projects */}
+            {/*
             <div className="eu-fejlesztesek">
               <h4 className="management-title">Európai Unió által támogatott fejlesztések</h4>
               
@@ -352,9 +354,8 @@ const KozerdekuAdatok: React.FC = () => {
                 </p>
                 <p>A projekt az Európai Unió támogatásával, a magyar állam társfinanszírozásával valósul meg.</p>
               </div>
-
-
             </div>
+            */}
 
             <div className="kozbeszerzesi-informaciok">
               <h4 className="management-title">Közbeszerzési információk</h4>
