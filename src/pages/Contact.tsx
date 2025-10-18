@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
             <p>Adószám: 10941908-2-42;</p>
             <p>Képviseli: Németh Balázs Sándor vezérigazgató</p>
             <p>Titkárság:
-              <a href="mailto:titkarsag@mkifk.hu?subject=Hello&body=MHK titkárságnak kérdésem.">
+              <a href="mailto:titkarsag@mkifk.hu">
                titkarsag@mkifk.hu
               </a>
             </p>
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
 
           <div className="contact__info contact__block">
             <p>
-              Országos Fordító és Fordításhitelesítő Iroda (OFFI) Zrt.
+              Országos Fordító és Fordításhitelesítő Iroda (OFFI)
             </p>
             <br />
             <p>Telephely: 1062 Budapest, Bajza u. 52.</p>
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
             <p>Tel.: +36 1 428 9600</p>
             <p>
               E-mail:
-              <a href="mailto:info@offi.hu?subject=Kapcsolatfelvétel&body=Tisztelt OFFI!">
+              <a href="mailto:info@offi.hu">
                  info@offi.hu
               </a>
             </p>
